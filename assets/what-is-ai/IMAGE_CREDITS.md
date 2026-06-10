@@ -1,2 +1,2 @@
 - [[dart-board-all-near-center.png]]: Richard Matthews (https://www.flickr.com/photos/richardofengland/6788829651/)
-- [[dart-board-all-miss.jpg]]: Darrenw (https://www.pinterest.com/pin/dimensionamiento-de-almacenes-ingeniera-industrial--672725263074785015/)
+- [[dart-board-all-missing.webp]]: https://imgflip.com/memetemplate/565540307/missed-darts-board

@@ -1,2 +1,3 @@
 - [[dart-board-all-near-center.png]]: Richard Matthews (https://www.flickr.com/photos/richardofengland/6788829651/)
 - [[dart-board-all-missing.webp]]: https://imgflip.com/memetemplate/565540307/missed-darts-board
+- [[ice-cream-sales.png]]: From https://ahdb.org.uk/news/consumer-insight-the-inside-scoop-on-ice-cream-opportunities

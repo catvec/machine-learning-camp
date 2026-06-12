@@ -3,3 +3,4 @@
 - [[ice-cream-sales.png]]: From https://ahdb.org.uk/news/consumer-insight-the-inside-scoop-on-ice-cream-opportunities
 - [[fast-car.jpg]]: https://www.rutamotor.com/el-dodge-charger-vuelve-a-europa-con-versiones-electricas-y-a-gasolina/
 - [[plant-growing.jpg]]: https://stonybrook.digication.com/nina_zeng
+- [[mse.webp]]: https://www.geeksforgeeks.org/maths/mean-squared-error/

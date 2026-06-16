@@ -4,3 +4,4 @@
 - [[fast-car.jpg]]: https://www.rutamotor.com/el-dodge-charger-vuelve-a-europa-con-versiones-electricas-y-a-gasolina/
 - [[plant-growing.jpg]]: https://stonybrook.digication.com/nina_zeng
 - [[mse.webp]]: https://www.geeksforgeeks.org/maths/mean-squared-error/
+- [[neurons.webp]]: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2024.1524475/abstract

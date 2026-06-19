@@ -40,7 +40,4 @@ The jupyter notebooks in this repository are meant to run in Google Colab. Write
     - Ensure the creator of the image has granted usage of the image via the creative commons
   - Add the image URL to the `IMAGE_CREDITS.md` file in the assets folder
   - Then commit and push the image to GitHub
-  - Get the raw URL for the image, it should be something like:
-    ```text
-https://github.com/catvec/putney-mit-technology-camp/blob/main/assets/what-is-ai/7-layer-neural-network.png?raw=true)
-    ```
+  - Get the raw URL for the image, it should be something like: `https://github.com/catvec/putney-mit-technology-camp/blob/main/assets/what-is-ai/7-layer-neural-network.png?raw=true`

@@ -6,3 +6,4 @@
 - [[mse.webp]]: https://www.geeksforgeeks.org/maths/mean-squared-error/
 - [[neurons.webp]]: https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2024.1524475/abstract
 - [[3-layer-neural-network.jpg]]: https://stackoverflow.com/questions/40577280/how-many-layers-are-in-this-neural-network
+- [[4-layer-neural-network.jpg]]: https://i2tutorials.com/hidden-layers-in-neural-networks/

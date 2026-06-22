@@ -17,10 +17,11 @@ The [`notebooks/`](../notebooks) directory contains several Jupyter notebooks wh
 
 - [`Website Basics.ipynb`](../notebooks/Website Basics.ipynb): How to create a website with HTML and CSS
 - [`Python Basics.ipynb`](../notebooks/Python Basics.ipynb): How to program in Python
-- [`What is AI.ipynb`](../notebooks/What is AI.ipynb): The basics of AI:
+- [`Data Modeling.ipynb`](../notebooks/Data Modeling.ipynb): Show how we can make models to predict data
   - Linear regressions
   - Error measurement
   - Backwards propagation
+- [`What is AI.ipynb`](../notebooks/What is AI.ipynb): The basics of AI:
   - Neural Networks
 
 

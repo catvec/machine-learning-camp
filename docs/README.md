@@ -15,13 +15,13 @@ Expectations going in:
 
 The [`notebooks/`](../notebooks) directory contains several Jupyter notebooks which teach:
 
-- [`Website Basics.ipynb`](../notebooks/Website Basics.ipynb): How to create a website with HTML and CSS
-- [`Python Basics.ipynb`](../notebooks/Python Basics.ipynb): How to program in Python
-- [`Data Modeling.ipynb`](../notebooks/Data Modeling.ipynb): Show how we can make models to predict data
+- [`Website_Basics.ipynb`](../notebooks/Website_Basics.ipynb): How to create a website with HTML and CSS
+- [`Python_Basics.ipynb`](../notebooks/Python_Basics.ipynb): How to program in Python
+- [`Data_Modeling.ipynb`](../notebooks/Data_Modeling.ipynb): Show how we can make models to predict data
   - Linear regressions
   - Error measurement
   - Backwards propagation
-- [`What is AI.ipynb`](../notebooks/What is AI.ipynb): The basics of AI:
+- [`Neural_Networks.ipynb`](../notebooks/Neural_Networks.ipynb): The basics of AI:
   - Neural Networks
 
 

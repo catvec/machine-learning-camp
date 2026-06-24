@@ -9,7 +9,7 @@ Welcome to the machine learning course. These lessons will teach you:
 Expectations going in to these lessons:
 
 - No prior programming or machine learning experience
-- Familiar with algebra (Like $y = m \cdot x + b$)
+- Familiar with algebra (Like y = mx + b)
 
 # Getting Started
 All these lessons are completed online using a website named Google Colab. Complete each lesson in order. Start a lesson by clicking the "Open in Colab" button:

@@ -8,10 +8,10 @@ Resources for a machine learning camp (last updated 2026).
 # Overview
 Resources for a machine learning camp.
 
-See [`docs/`](./docs/) for instructor and student resources.
+See [`INSTRUCTORS.md`](./INSTRUCTORS.md) for instructor and student resources.
 
 # Development
-> These instructions are meant for developers who are creating the material. For instructor and student guides see [`docs/`](./docs/)
+> These instructions are meant for developers who are creating the material. For instructor and student guides see [`INSTRUCTORS.md`](./INSTRUCTORS.md)
 
 Repository structure:
 

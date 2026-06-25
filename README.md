@@ -12,7 +12,7 @@ See [`INSTRUCTORS.md`](./INSTRUCTORS.md) for instructor resources.
 See [catvec.github.io/machine-learning-camp](https://catvec.github.io/machine-learning-camp/) for student resources.
 
 # Development
-> These instructions are meant for developers who are creating the material. For instructor and student guides see [`INSTRUCTORS.md`](./INSTRUCTORS.md)
+> These instructions are meant for developers who are creating the material. For instructor guidance [`INSTRUCTORS.md`](./INSTRUCTORS.md)
 
 Repository structure:
 

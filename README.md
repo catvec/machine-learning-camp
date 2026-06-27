@@ -47,3 +47,6 @@ The jupyter notebooks in this repository are meant to run in Google Colab. Write
   - This file is used as the source for the student resources site
   - Add your notebook in the relevant place in the sequence of lessons
   - Copy existing bullet point format
+
+## Raspberry Pi Setup
+To setup the Raspberry Pi for this curriculum follow instructions in [`raspberry-pi/README.md`](./raspberry-pi/README.md).

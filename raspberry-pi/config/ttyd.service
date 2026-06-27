@@ -1,0 +1,14 @@
+[Unit]
+Description=TTYD
+After=syslog.target
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/ttyd -t enableZmodem=true -t enableTrzsz=true -t enableSixel=true --writable --cwd /home/pi bash
+Type=simple
+Restart=always
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

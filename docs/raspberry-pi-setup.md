@@ -13,9 +13,9 @@ You should have been given 1 of each by instructors:
 
 - [Raspberry Pi 4 B ](https://www.adafruit.com/product/4296) (minimum 4gb RAM)
 - [Raspberry Pi Camera Board](https://www.adafruit.com/product/3099)
-- [Camera extension cable](https://www.adafruit.com/product/1731)
 - [BrainCraft Hat](https://www.adafruit.com/product/4374)
 - [2 x 20 Socket Riser Header](https://www.amazon.com/dp/B07PPD25MK?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+- 2x 18mm spacers 
 - [Power supply compatible with Raspberry Pi 4](https://www.adafruit.com/product/4298)
 - [microSD card with adapter 16 GB](https://www.adafruit.com/product/2693)
 - [Micro SD Card Reader](https://www.adafruit.com/product/939) (optional)

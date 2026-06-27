@@ -94,44 +94,84 @@ The first thing we need to do is connect to the Wifi. To do this we need to talk
 # Install the Camera on the Raspberry Pi
 Before plugging in or unplugging anything always ensure your Raspberry Pi is off and disconnected from power.
 
-1. Ensure Pi is turned off
-2. Locate the Camera Module port  
-   ![Diagram showing where camera should be connected to the Raspberry Pi](./public/raspberry-pi-setup/camera-module-port.png)
-3. Connect the camera cable  
-   ![Animation showing how to connect camera cable](./public/raspberry-pi-setup/connect-camera.gif)
-  - Gently pull up on the edges of the port’s plastic clip
-  - Insert the Camera Module ribbon cable through the Braincraft HAT camera cable slit and then into the port
-    ![Image of braincraft hat camera cable slot](./public/raspberry-pi-setup/braincraft-camera-cable-slot.jpg)  
-    - Make sure the blue side of the cable is facing the ethernet ports
-  - Push the black plastic clip back into place firmly, but make sure you’re pressing it down vertically. This part is tricky so be careful!
-
-# Install the BrainCraft Hat on the Raspberry Pi
-Before plugging in or unplugging anything always ensure your Raspberry Pi is off and disconnected from power.
-
 ## Connect the Fan
+Some kits come with the fan already assembled, while some do not have a fan attached yet.
+
+If the fan is attached to your Braincraft HAT then skip this section.
+
 1. Carefully position your Braincraft HAT screen side down
-2. Take your fan from its packaging and connect the wires into the small connector that says FAN: P4
-3. The Red wire should face the large black plastic connector
-4. Once this is connected, take off the orange hole protector stickers from the board and position your fan on the middle of the board aligning the holes
+2. Take off the orange hole protector stickers from the board
+3. Take your fan from its packaging and connect the wires into the small connector that says FAN: P4
+4. The Red wire should face the large black plastic connector
+4. Once this is connected position your fan on the middle of the board aligning the holes
 5. Position the wire so it is not pinched under the fan, and carefully attach the screws firmly, but not too tight
 6. You should be using the screws that _do not_ come with the small nuts (don’t use the nuts)
 7. Now your fan should be installed and look like this:  
    ![Image of Braincraft HAT with fan installed](./public/raspberry-pi-setup/braincraft-hat-with-fan.jpg)
 
-### Connect the Camera:
+## Joystick Cover
+Some Braincraft HAT kits come with a plastic joystick cover, check if it is already installed:
 
+If the joystick is installed the front of your Braincraft HAT will look like this:
 
-#### Attach the Braincraft HAT
+![Braincraft HAT with joystick cover](./public/raspberry-pi-setup/braincraft-with-joystick-cover.jpg)
 
-1. Flip the board fan side down and carefully press the rubber joystick cover over the small joystick to the right of the screen.
-2. Then, attach the socket riser header onto the Raspberry Pi pinholes.
-3. Carefully align the hat’s plastic connector over the pins on your board so the hat is covering the majority of the Raspberry Pi. Firmly press down to make sure the components are connected. 
+If the joystick is not installed the front of your Braincraft HAT will look like this:
+
+![Braincraft HAT no joystick cover](./public/raspberry-pi-setup/braincraft-no-joystick-cover.jpg)
+
+To install the joystick cover simply take the part:
+
+![Braincraft HAT joystick cover](./public/raspberry-pi-setup/braincraft-joystick-cover-alone.jpg)
+
+And press it on to the joystick.
+
+## Spacers
+None of these steps should require that much strength or force to complete. If you feel yourself trying really hard to screw something in, then unscrew the item and try again. Encountering a lot of force while screwing in means the part is not aligned properly.
+
+1. Locate the two holes on the Raspberry Pi circuit board on the side opposite from the pins:  
+   ![Raspberry pi spacer locations](./public/raspberry-pi-setup/spacers-locations.jpg)
+2. Put one spacer in each hole, the pointy side of the spacer that looks like a screw should go through the hole  
+   ![Raspberry pi with spacer through hole](./public/raspberry-pi-setup/spacers-hand-position.jpg)
+3. Thread a nut on the bottom side of the spacer under the Raspberry Pi board. Tighten it until the nut is touching the circuit board. Do not tighten it too much, you should be able to wiggle and rotate the spacer around  
+   ![Raspberry Pi with spacers on bottom](./public/raspberry-pi-setup/spacers-complete-bottom.jpg)
+4. Once complete your Raspberry Pi should look like this:  
+   ![Raspberry Pi spacers on top](./public/raspberry-pi-setup/spacers-complete-top.jpg)
+
+## Connect the Camera
+
+1. Orient both your Raspberry Pi and Braincraft HAT as shown in this photo:  
+   ![Orientation of devices](./public/raspberry-pi-setup/raspberry-pi-and-braincraft-orientation.jpg)
+   - The row of pins on the Raspberry Pi should be on the bottom, the USB and Ethernet ports on the left, and the spacers you should put on should be on the top
+   - The joystick on the Braincraft HAT should be on the left and the row of ports should be on the top
+2. Locate the Camera Module port on the Raspberry Pi  
+   ![Diagram showing where camera should be connected to the Raspberry Pi](./public/raspberry-pi-setup/camera-module-port.png)
+3. Connect the camera cable  
+   ![Animation showing how to connect camera cable](./public/raspberry-pi-setup/connect-camera.gif)
+  - Gently pull up on the edges of the port’s plastic clip
+  - Insert the Camera Module ribbon cable through the Braincraft HAT camera cable slot:
+    ![Image of braincraft hat camera cable slot](./public/raspberry-pi-setup/braincraft-camera-cable-slot.jpg)  
+  - Make sure the blue side of the cable is facing the Ethernet ports on the Raspberry Pi (The blue side should face **left**)
+  - Insert the cable into the camera slot on the Raspberry Pi
+  - Push the black plastic clip back into place firmly, but make sure you’re pressing it down vertically. This part is tricky so be careful!
+4. After completing these steps your Raspberry Pi, Braincraft HAT, and camera should look like this:
+   ![Image of Raspberry Pi camera attached](./public/raspberry-pi-setup/raspberry-pi-with-camera-and-braincraft-before-attach.jpg)
+   
+## Attach the Braincraft HAT
+Your camera should be attached to the Raspberry Pi, and its cable should be going through the hole in your Braincraft HAT.
+
+1. Carefully align the Braincraft HAT's plastic connector over the pins on your board so the hat is covering the majority of the Raspberry Pi
+   ![Pins aligned top down](./public/raspberry-pi-setup/pins-aligned-top-down.jpg)
+   ![Pins aligned side](./public/raspberry-pi-setup/pins-aligned-side.jpg)
+2. Firmly press down to make sure the components are connected 
+  - Be careful to only push straight down, we don't want to bend any pins
 
 Congratulations, your Braincraft board, camera, and fan are installed!
 Your hardware should look something like this now:
 
-   ![alt_text](images/brainhat.gif)
-
+![Raspberry Pi pin side](./public/raspberry-pi-setup/post-attach-pin-side.jpg)  
+![Raspberry Pi spacer side](./public/raspberry-pi-setup/post-attach-spacer-side.jpg)  
+![Raspberry Pi top down](./public/raspberry-pi-setup/post-attach-top-down.jpg)
 
 ## 4. Connecting and Configuring Braincraft HAT
 **IMPORTANT: Please make sure all installation in this section is done so the Python Virtual environment created previously!!!**

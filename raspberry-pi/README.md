@@ -18,9 +18,9 @@ Access:
   ```
 - WiFi SSH:
   ```bash
-  ssh pi@<ip>
+  ssh pi@$PI_IP
   ```
-- Web shell: `<ip>:7681` in your web browser
+- Web shell: `$PI_IP:7681` in your web browser
   - Use the `rz` command to send files from your browser to the Raspberry Pi
   - Use the `sz` command to download files from your Raspberry Pi to your browser
 
@@ -65,10 +65,10 @@ Access:
       ```
     - Add systemd service:  
       ([Source](https://github.com/tsl0922/ttyd/wiki/Systemd-service))
-      - Upload the [`config/ttyd.service`](./config/ttyd.service) file via rsync:  
+      - Upload the [`files/ttyd.service`](./files/ttyd.service) file via rsync:  
         (On the host machine run)
         ```bash
-        rsync ./config/ttyd.service pi@<ip>:/home/pi/Downloads
+        rsync ./files/ttyd.service pi@$PI_IP:/home/pi/Downloads
         ```
       - Move the service to the correct place:  
         (On the Raspberry Pi run)
@@ -90,7 +90,10 @@ Access:
           sudo apt-get install -y lrzsz
           ```
         - trzsz (modern):
-          > Not usable unless accessing ttyd over https
+          > Not usable unless accessing ttyd over https or localhost
+          > ```bash
+          > ssh -L 7681:localhost:7681 pi@$PI_IP
+          > ```
           ```bash
           curl -s 'https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x7074ce75da7cc691c1ae1a7c7e51d1ad956055ca' \
               | sudo gpg --dearmor -o /usr/share/keyrings/trzsz.gpg
@@ -100,10 +103,53 @@ Access:
 
           sudo apt install -y trzsz
           ```
-    
+      - Add an Avahi service config file for ttyd
+        - Copy the file to the Raspberry Pi  
+          (Run on your computer)
+          ```bash
+          rsync ./files/ttyd-avahi.service pi@$PI_IP:/home/pi/Downloads
+          ```
+        - Install the file in the correct location  
+          (Run on the Raspberry Pi)  
+          ```bash
+          sudo mv ~/Downloads/ttyd-avahi.service /etc/avahi/services/ttyd.service
+          sudo systemctl restart avahi-daemon
+          ```
+  - Setup Avahi service for screen sharing
+    - Copy the file onto the Raspberry Pi
+      (Run on your computer)
+      ```bash
+      rsync ./files/vnc-avahi.service pi@$PI_IP:/home/pi/Downloads
+      ```
+    - Install the file in the correct location  
+      (Run on the Raspberry PI)
+      ```bash
+      sudo mv ~/Downloads/vnc-avahi.service /etc/avahi/services/vnc.service
+      sudo systemctl restart avahi-daemon
+      ```
+  - Setup Jupyter Lab
+    - Copy [`files/notebooks/`](./files/notebooks/) to `~/Documents/notebooks` on the Raspberry Pi:  
+      (Run on your computer)
+      ```bash
+      rsync -r ./files/notebooks/ pi@$PI_IP:/home/pi/Documents/notebooks
+      ```
+    - Setup the Python virtual environment:  
+      (Run on the Raspberry Pi)
+      ```bash
+      cd ~/Documents/notebooks
+      uv sync
+      ```      
+    - Install the Systemd service:  
+      (Run on the Raspberry Pi)
+      ```bash
+      sudo mv ~/Documents/notebooks/jupyterlab.service /etc/systemd/system/
+      chmod +x ~/Documents/notebooks/notebook-server.sh
+      sudo systemctl enable --now jupyterlab
+      ```
 
 # Troubleshooting
 - On linux if keeps disconnecting set Network Manager
   - IPv4 disabled
   - IPv6 link local
 - If internet keeps droppping out on ethernet: Make sure the physical connection is secure (click sound on each side)
+- If Avahi services aren't being discovered run `avahi-discover` on your computer then try again

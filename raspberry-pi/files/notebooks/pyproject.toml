@@ -1,0 +1,10 @@
+[project]
+name = "notebooks"
+version = "0.1.0"
+description = "Jupyter notebooks running on the Raspberry Pi"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter-collaboration>=4.4.1",
+    "jupyterlab>=4.6.0",
+]

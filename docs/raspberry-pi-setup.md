@@ -38,15 +38,53 @@ Before we begin you need to get your Raspberry Pi ready and turn it on:
 # Connect to the Wifi
 The first thing we need to do is connect to the Wifi. To do this we need to talk to the Raspberry Pi directly.
 
-1. Make sure your Raspberry Pi is on
-2. Take an Ethernet cord and plug it into your Raspberry Pi and your computer  
+1. Install a remote desktop viewer program on your computer:
+  - If you are on Windows, Mac, or Linux install [TigerVNC](https://tigervnc.org/)
+    - Go to the releases page of the website
+    - Find the latest release
+    - Follow the link to the "latest binaries"
+    - If you are on Windows download the file ending in `.exe`, if you are on Mac download the `.dmg` file
+  - If you are on Android or iOS install [MultiVNC](https://github.com/bk138/multivnc)
+    - Scroll down to the "How to get it" section on the website
+    - Click the button for your platforms app store 
+    - Install the app
+2. Make sure your Raspberry Pi is on
+3. Take an Ethernet cord and plug it into your Raspberry Pi and your computer  
    - Be sure the cord is firmly plugged in to both devices!
      - You should hear a click when you plug it in
      - Lights on the Ethernet port of the Raspberry Pi should turn on when the cord is plugged in
-3. Wait 2 minutes. The Raspberry Pi has to turn on and get ready
-4. Visit [`raspberrypi.local:7681`](http://raspberrypi.local:7681/) in your browser
-  - If this works you should see a webpage which says `pi@raspberrypi:~ $`:  
-    ![Image of ttyd accessed via .local avahi domain](./public/raspberry-pi-setup/ttyd-raspberry-pi-local.png)
+4. Wait 2 minutes. The Raspberry Pi has to turn on and get ready
+5. Open your remote desktop viewer program (either TigerVNC or MultiVNC)
+  - Enter `raspberrypi.local` as the address of the device you wish to connect to
+  - When prompted enter:
+    | Username | Password   |
+    | -------- | ---------- |
+    | `pi`     | `password` |
+  - You should now see a desktop with a few icons:
+    ![Screenshot of what the Raspberry Pi will look like when you connect](./public/raspberry-pi-setup/vnc-success-login.png)
+  - In the top right of your screen there should be one of these symbols:  
+    ![The wifi symbol](./public/raspberry-pi-setup/wifi-symbol.png)  
+    ![The ethernet symbol](./public/raspberry-pi-setup/ethernet-symbol.png)
+    - Click the symbol
+      - If you do not see this symbol then these [Raspberry Pi Connect to Wifi Via Terminal](./raspberry-pi-connect-to-wifi-via-terminal.md) instructions  
+        **Only follow these if you do not see the indicated symbol**
+    - Then connect to the Wifi
+    - Click the browser icon in the top left of the screen  
+      ![Browser icon](./public/raspberry-pi-setup/browser-symbol.png)
+    - Ensure you have internet access by going to a website in the browser
+6. Get the IP of your raspberry pi
+  - Open a terminal  
+    ![Terminal symbol](./public/raspberry-pi-setup/terminal-symbol.png)
+  - Type the following then hit enter:
+    ```bash
+    hostname -I
+    ```
+  - You should see an IP address (a series of numbers separated by dots)  
+    ![Image of terminal with IP address](./public/raspberry-pi-setup/hostname-i.png)
+  - Write this IP address down somewhere, share it with your teammates as well
+  - Any time you see `<IP>` in instructions further down replace that text with your Raspberry Pi's IP address
+7. Disconnect from the Raspberry Pi in your remote desktop viewer program
+8. Reconnect to your Raspberry Pi but this time use the `<IP>` you found
 
 ## 2. Setting up a Network Between your Computer and a Raspberry PI
 

@@ -2,12 +2,23 @@
 set -euo pipefail
 readonly HEADLESS="HEADLESS-1"
 
-readonly ACTION="$1"
-if [[ "$ACTION" != "on" ]] && [[ "$ACTION" != "off" ]]; then
+# Set env vars so wayland can be controlled from ssh session
+if [[ -z "${WAYLAND_DISPLAY:-}" ]]; then
+  export WAYLAND_DISPLAY=wayland-0
+fi
+
+if [[ -z "${XDG_RUNTIME_DIR:-}" ]]; then
+  export XDG_RUNTIME_DIR="/run/user/${UID}/"
+fi
+
+# Arguments
+readonly ACTION="${1:-}"
+if [[ "${ACTION:-}" != "on" ]] && [[ "${ACTION:-}" != "off" ]]; then
    echo "Error: on or off argument required" >&2
    exit 1
 fi
 
+# Toggle display
 wlr-randr --output "$HEADLESS" "--${ACTION}"
 
 if [[ "$ACTION" == "on" ]]; then

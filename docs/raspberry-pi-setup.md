@@ -206,3 +206,33 @@ Now that everything is all assembled plug in your Raspberry Pi and let's test ou
    ```
    You should now see the output of your camera on the mini screen!  
    Hit Control and `c` at the same time to end this preview program
+
+## Controlling the Screens
+Now that we have attached the Braincraft HAT to our Raspberry Pi we have a very very small screen. This screen is showing the desktop of our Raspberry Pi. And it's **way** to small to be useful. 
+
+It may work fine for viewing the camera, but if you use your remote desktop viewer program you'll see that this screen is too small to use.
+
+To fix this we can make a second display which we can only see using our remote desktop viewer program:
+
+1. Open `http://<IP>:7681` in your browser, this is a terminal where you can run commands on your Raspberry Pi
+2. Paste this command and hit enter:
+   ```bash
+   big-display on
+   ```
+
+This will enable this second bigger display. Then you can use your remote desktop viewing program like normal.
+
+However, we can only see this display using the remote desktop viewing program. The camera preview will also always shown on this hidden screen.
+
+To turn off this second screen:
+
+1. Open `http://<IP>:7681` in your browser, this is a terminal where you can run commands on your Raspberry Pi
+2. Paste this command and hit enter:
+   ```bash
+   big-display off
+   ```
+   
+**tldr:**
+
+- Run `big-display on` when you need to use your remote desktop viewer 
+- Run `big-display off` when you need to see the camera output on the Braincraft HAT screen

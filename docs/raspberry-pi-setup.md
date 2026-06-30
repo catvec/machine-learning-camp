@@ -201,6 +201,7 @@ Now that everything is all assembled plug in your Raspberry Pi and let's test ou
 2. Open `http://<IP>:7681` in your browser, this is a terminal where you can run commands on your Raspberry Pi
 3. Paste this command into the terminal:
    ```bash
+   big-display off
    DISPLAY=:0 rpicam-hello --timeout=0
    ```
    You should now see the output of your camera on the mini screen!  

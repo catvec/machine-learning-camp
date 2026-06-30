@@ -158,14 +158,17 @@ Access methods:
     - Copy the files to the Raspberry Pi
       (Run on your computer)
       ```bash
-      rsync ./files/labwc-* pi@raspberrypi.local:/home/pi/Downloads
+      rsync ./files/labwc-environment pi@raspberrypi.local:/home/pi/Downloads
+      rsync ./files/big-display pi@raspberrypi.local:/home/pi/Downloads
       ```
     - Move the file to the correct location
       (Run on the Raspberry Pi)
       ```bash
       mv ~/Downloads/labwc-environment ~/.config/labwc/environment
-      mv ~/Downloads/labwc-rx.xml ~/.config/labwc/rc.xml
+      sudo mv ~/Downloads/big-display /usr/local/bin
+      sudo chmod +x /usr/local/bin/big-display
       ```
+      
   
 # Troubleshooting
 - On linux if keeps disconnecting set Network Manager

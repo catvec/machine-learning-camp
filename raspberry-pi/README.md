@@ -126,6 +126,8 @@ Access methods:
       (Run on the Raspberry Pi)
       ```bash
       cd ~/Documents/notebooks
+      sudo apt-get install -y libcap-dev libcamera-dev
+      uv venv --python /usr/bin/python3 --system-site-packages
       uv sync
       ```      
     - Install the Systemd service:  
@@ -144,16 +146,25 @@ Access methods:
     - Install the driver and cleanup
       (Run on the Raspberry Pi)
       ```bash
-      cd ~/Downloads/display-driver-install
+      sudo mv ~/Downloads/display-driver-install /opt/display-driver
+      sudo chown -R pi:pi /opt/display-driver
+      cd /opt/display-driver
       uv sync
       chmod +x ./install.sh
       ./install.sh
       ```
       When the script asks you if you want to reboot answer `y`
-    - Then go and clean up the installer:
+  - Configure a headless display so VNC resolution isn't the resolution of the Braincraft HAT display
+    - Copy the files to the Raspberry Pi
+      (Run on your computer)
+      ```bash
+      rsync ./files/labwc-* pi@raspberrypi.local:/home/pi/Downloads
+      ```
+    - Move the file to the correct location
       (Run on the Raspberry Pi)
       ```bash
-      sudo rm -rf ~/Downloads/display-driver-install
+      mv ~/Downloads/labwc-environment ~/.config/labwc/environment
+      mv ~/Downloads/labwc-rx.xml ~/.config/labwc/rc.xml
       ```
   
 # Troubleshooting

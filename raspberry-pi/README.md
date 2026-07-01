@@ -66,6 +66,18 @@ Access methods:
       You may get a message about failing to preserve ownership, this is fine, ignore this error.
       
       After you run this command you will need to reboot at some point for it to take effect, but steps later on have you do this.
+  - Install pytorch:
+    ```bash
+    mkdir -p ~/Documents/libraries
+    cd ~/Documents/libraries
+    git clone --recursive https://github.com/pytorch/pytorch.git
+    cd pytorch
+    git checkout v2.12.1
+    git submodule update --recursive
+    export USE_QNNPACK=0
+    export USE_PYTORCH_QNNPACK=0
+    python3 setup.py install
+    ```
   - Install uv:
     ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh

@@ -6,7 +6,7 @@ This guide will help you set up your Raspberry Pi by:
 1. [Connecting to the WiFi](#connect-to-the-wifi)
 2. [Install the Camera on the Raspberry Pi](#install-the-camera-on-the-raspberry-pi)
 3. [Install the BrainCraft Hat on the Raspberry Pi](#install-the-braincraft-hat-on-the-raspberry-pi)
-4. Running your machine learning model on the Raspberry Pi
+4. [Running your machine learning model on the Raspberry Pi](#running-your-machine-learning-model-on-the-raspberry-pi)
 
 # Materials
 You should have been given 1 of each by instructors:
@@ -238,3 +238,13 @@ To turn off this second screen:
 
 - Run `big-display on` when you need to use your remote desktop viewer 
 - Run `big-display off` when you need to see the camera output on the Braincraft HAT screen
+
+# Running your Machine Learning Model on the Raspberry Pi
+Now it is time to run the neural network you fine tuned with Google Colab on your Raspberry Pi.
+
+1. Open `http://<IP>:8999` in your browser, this is a tool similar to Google Colab, but it runs directly on your Raspberry Pi.  
+2. Find the file explorer on the left hand side of the website:
+   ![Screenshot of jupyterlab file explorer](./public/raspberry-pi-setup/jupyterlab-file-browser.png)  
+   If the file explorer isn't open click the file browser symbol in the top left:  
+   ![Screenshot of jupyterlab file explorer symbol](./public/raspberry-pi-setup/jupyterlab-file-browser-symbol.png)
+3. File the file named `README.ipynb` in the file explorer and double click it. Read this file and follow the lessons in the order they are described

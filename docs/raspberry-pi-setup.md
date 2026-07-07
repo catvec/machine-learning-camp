@@ -114,10 +114,13 @@ The first thing we need to do is connect to the Wifi. To do this we need to talk
 # Install the Camera on the Raspberry Pi
 Before plugging in or unplugging anything always ensure your Raspberry Pi is off and disconnected from power.
 
-## Connect the Fan
-Some kits come with the fan already assembled, while some do not have a fan attached yet.
+**None of these steps should require that much strength or force to complete.** Pressing or twisting something with a large amount of force can break the equipment.
 
-If the fan is attached to your Braincraft HAT then skip this section.
+- If you feel yourself trying really hard to screw something in, then unscrew the item and try again
+- If you are pushing a part on or connecting it and it is hard then stop and make sure everything is aligned correctly
+
+## Connect the Fan
+Let's install the fan on to the Braincraft HAT. This will help cool down the Raspberry Pi.
 
 1. Carefully position your Braincraft HAT screen side down
 2. Take off the orange hole protector stickers from the board  
@@ -125,30 +128,23 @@ If the fan is attached to your Braincraft HAT then skip this section.
 3. Take your fan from its packaging and connect the wires into the small connector that says FAN: P4
 4. The Red wire should face the large black plastic connector
 4. Once this is connected position your fan on the middle of the board aligning the holes
-5. Position the wire so it is not pinched under the fan, and carefully attach the screws firmly, but not too tight
-6. You should be using the screws that _do not_ come with the small nuts (don’t use the nuts)
+5. Position the wire so it is not pinched under the fan
+6. Attach the screws into each of the holes **except** the hole closest to where the fan cable is located  
+   - Do not put a screw in the hole next to the fan cable as it will interfere with the Raspberry Pi
+   - If your kit has 2 different types of screws then use the screws that _do not_ come with the small nuts (don’t use the nuts)
 7. Now your fan should be installed and look like this:  
    ![Image of Braincraft HAT with fan installed](./public/raspberry-pi-setup/braincraft-hat-with-fan.jpg)
 
 ## Joystick Cover
-Some Braincraft HAT kits come with a plastic joystick cover, check if it is already installed:
+Install the joystick cover on to the front of the Braincraft HAT. 
 
-If the joystick is installed the front of your Braincraft HAT will look like this:
-
-![Braincraft HAT with joystick cover](./public/raspberry-pi-setup/braincraft-with-joystick-cover.jpg)
-
-If the joystick is not installed the front of your Braincraft HAT will look like this:
-
-![Braincraft HAT no joystick cover](./public/raspberry-pi-setup/braincraft-no-joystick-cover.jpg)
-
-To install the joystick cover simply take the part:
-
-![Braincraft HAT joystick cover](./public/raspberry-pi-setup/braincraft-joystick-cover-alone.jpg)
-
-And press it on to the joystick.
+1. Take the joystick cover part:  
+   ![Braincraft HAT joystick cover](./public/raspberry-pi-setup/braincraft-joystick-cover-alone.jpg)
+2. Push it gently on to the joystick:  
+   ![Braincraft HAT with joystick cover](./public/raspberry-pi-setup/braincraft-with-joystick-cover.jpg)
 
 ## Spacers
-None of these steps should require that much strength or force to complete. If you feel yourself trying really hard to screw something in, then unscrew the item and try again. Encountering a lot of force while screwing in means the part is not aligned properly.
+Add some spacers on to your Raspberry Pi board so that the Braincraft HAT can sit comfortably:
 
 1. Locate the two holes on the Raspberry Pi circuit board on the side opposite from the pins:  
    ![Raspberry pi spacer locations](./public/raspberry-pi-setup/spacers-locations.jpg)

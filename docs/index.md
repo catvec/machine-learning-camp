@@ -34,7 +34,12 @@ All these lessons are completed online using a website named Google Colab. Compl
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Learn what a neural network is, how to make your own, and how to train it.
-5. **Image Classifier**  
+5. **Images and Convolutions**  
+   <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Images_and_Convolutions.ipynb" target="_blank">
+     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+   </a>  
+   Learn how images are seen by computers and neural networks. 
+6. **Image Classifier**  
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Image_Classifier.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  

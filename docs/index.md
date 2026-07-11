@@ -44,10 +44,10 @@ All these lessons are completed online using a website named Google Colab. Compl
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Create and train your own neural network which determines what object is in a photo.
-7. **Large Language Models**
+7. **Large Language Models**   
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/LLMs.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-   </a>
+   </a>   
    Learn about the history of machines processing language, and how modern language models work.
 
 # Hardware Lab

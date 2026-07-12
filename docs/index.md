@@ -30,7 +30,7 @@ All these lessons are completed online using a website named Google Colab. Compl
    </a>  
    Learn how to use math to predict values.
 4. **Neural Networks**  
-   <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Neural_Networks.ipynb" target="_blank">
+   <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Neural_Networks_Abridged.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Learn what a neural network is, how to make your own, and how to train it.

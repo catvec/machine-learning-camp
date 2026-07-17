@@ -1,0 +1,7 @@
+main:
+  - title: Abridged Course
+    url: /
+  - title: Full Course
+    url: /full-course/
+  - title: Raspberry Pi Setup
+    url: /raspberry-pi-setup/

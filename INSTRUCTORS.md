@@ -12,7 +12,7 @@ Expectations going in:
 
 - No prior programming experience
 - Familiar with algebra (ex., y = mx + b)
-- Good if familiar with derivatives (although the concept will be explained and explored)
+- Basics of derivatives (ex., they are the slope, what positive and negative derivatives mean and how a bigger or smaller derivative affects the slope)
 
 The [`notebooks/`](../notebooks) directory contains several Jupyter notebooks which teach:
 
@@ -22,11 +22,14 @@ The [`notebooks/`](../notebooks) directory contains several Jupyter notebooks wh
   - Linear regressions
   - Error measurement
   - Backwards propagation
-- [`Neural_Networks.ipynb`](../notebooks/Neural_Networks.ipynb): The basics of AI:
-  - Neural Networks
-- [`Image_Classifier.ipynb`](../notebooks/Image_Classifier.ipynb): Train an image classifier
+- [`Neural_Networks.ipynb`](../notebooks/Neural_Networks.ipynb) (Or [`Neural_Networks_Abridged.ipynb`](../notebooks/Neural_Networks_Abridged.ipynb)): The basics of neural networks
+- [`Image_Classifier.ipynb`](../notebooks/Image_Classifier.ipynb) (Or [`Image_Classifier_Abridged.ipynb`](../notebooks/Image_Classifier_Abridged.ipynb)): Train an image classifier
+- [`LLMs.ipynb`](../notebooks/LLMs.ipynb): The basics of large language models
 
 # Instructions
-Direct your students to the resources website: [catvec.github.io/machine-learning-camp](https://catvec.github.io/machine-learning-camp/)
+The [catvec.github.io/machine-learning-camp](https://catvec.github.io/machine-learning-camp/) site is meant to be used as a student hub for this course. There are 2 versions of the curriculum:
 
-This site will guide students through the material.
+- Abridged: Meant to be completed in ~12 hours
+- Full course: Meant to be completed in ~18-24 hours
+
+The material in the notebooks is meant to be self guided by a student. However, it can be helpful to demonstrate and roughly go through the material you wish to get through from the notebook as a group with all students before sending them into their own self guided practice.

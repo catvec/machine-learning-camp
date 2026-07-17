@@ -20,7 +20,7 @@
 
 title: Machine Learning Camp
 description: Resources for a machine learning camp.
-theme: minima
+remote_theme: "jekyll/minima@1e8a445"
 markdown: GFM
 
 minima:

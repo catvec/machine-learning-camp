@@ -1,3 +1,4 @@
+# Full Course
 Welcome to the machine learning course. These lessons will teach you:
 
 - How to make a website

@@ -14,27 +14,22 @@ Expectations going in to these lessons:
 # Labs
 All these lessons are completed online using a website named Google Colab. Complete each lesson in order. Start a lesson by clicking the "Open in Colab" button:
 
-1. **Website Basics**  
-   <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Website_Basics.ipynb" target="_blank">
-     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
-   </a>  
-   Learn how to create websites using HTML and CSS.
-2. **Python Basics**  
+1. **Python Basics**  
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Python_Basics.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Learn how to program in Python (no prior experience required).
-3. **Data Modeling**  
+2. **Data Modeling**  
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Data_Modeling.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Learn how to use math to predict values.
-4. **Neural Networks**  
+3. **Neural Networks**  
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Neural_Networks_Abridged.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  
    Learn what a neural network is, how to make your own, and how to train it.
-6. **Image Classifier**  
+4. **Image Classifier**  
    <a href="https://colab.research.google.com/github/catvec/machine-learning-camp/blob/main/notebooks/Image_Classifier_Abridged.ipynb" target="_blank">
      <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
    </a>  

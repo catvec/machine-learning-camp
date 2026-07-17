@@ -4,6 +4,7 @@ Resources for a machine learning camp (last updated 2026).
 # Table Of Contents
 - [Overview](#overview)
 - [Development](#development)
+- [Contributors](#contributors)
 
 # Overview
 Resources for a machine learning camp.
@@ -50,3 +51,18 @@ The jupyter notebooks in this repository are meant to run in Google Colab. Write
 
 ## Raspberry Pi Setup
 To setup the Raspberry Pi for this curriculum follow instructions in [`raspberry-pi/README.md`](./raspberry-pi/README.md).
+
+# Contributors
+- @catvec
+- @jpcaltabiano
+
+## Acknowledgments
+The course content and Raspberry Pi setup is a continuation of the work from:
+
+- https://github.com/tymho/NatGeoMITHackathon2024
+- https://github.com/cameronkruse/hacktheenvironment
+
+This content was used in previous years to run a hackathon where students learned machine learning and how to use a Raspberry Pi. This repository is the most recent (As of July 2026) version of the material used to run this same hackathon. And greatly expands the depth into which machine learning is investigated and solves some common problems with the Raspberry Pi section. However, this whole course would not have been possible without the hard work of those who came before us:
+
+- @cameronkruse
+- @tymho

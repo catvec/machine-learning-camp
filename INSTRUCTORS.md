@@ -29,7 +29,10 @@ The [`notebooks/`](../notebooks) directory contains several Jupyter notebooks wh
 # Instructions
 The [catvec.github.io/machine-learning-camp](https://catvec.github.io/machine-learning-camp/) site is meant to be used as a student hub for this course. There are 2 versions of the curriculum:
 
-- Abridged: Meant to be completed in ~12 hours
-- Full course: Meant to be completed in ~18-24 hours
+- Abridged: Meant to be completed in ~12 hours ([catvec.github.io/machine-learning-camp/](https://catvec.github.io/machine-learning-camp/))
+- Full course: Meant to be completed in ~18-24 hours [catvec.github.io/machine-learning-camp/full-course/](https://catvec.github.io/machine-learning-camp/full-course/)
 
 The material in the notebooks is meant to be self guided by a student. However, it can be helpful to demonstrate and roughly go through the material you wish to get through from the notebook as a group with all students before sending them into their own self guided practice.
+
+## Firewall Issues
+If students cannot access the website (due to `github.io`) being blocked try directing them to the GitHub `docs/` folder: https://github.com/catvec/machine-learning-camp/tree/main/docs

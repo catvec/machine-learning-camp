@@ -22,3 +22,9 @@ title: Machine Learning Camp
 description: Resources for a machine learning camp.
 theme: minima
 markdown: GFM
+
+minima:
+  nav_pages:
+    - index.md
+    - full-course.md
+    - raspberry-pi-setup.md
